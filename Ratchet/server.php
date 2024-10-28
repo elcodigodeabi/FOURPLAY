@@ -8,7 +8,7 @@ use MyApp\Chat;
 
     include 'src/base.php';
     include 'src/mensaje.php';
-
+    include 'src/chat.php';
     $server = IoServer::factory(
         new HttpServer(
             new WsServer(
